@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Name Attribute</title>
+</head>
+
+<body>
+    <h2>The Name Attribute for input</h2>
+    <p>Notice that each input field must have a name attribute to be submitted.</p>
+    <p>If the name attribute is omitted, the value of the input field will not be sent at all.</p><br>
+    <p>This example will not submit the value of the "First name" input field:</p>
+    <form action="/action_page.php">
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" value="Daniel"><br><br>
+        <input type="submit" value="Submit">
+    </form>
+    <p>Notice that the value of the "First name" field will not be submitted, because the input element does not have a
+        name attribute.</p>
+
+</body>
+
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Method attribute</title>
+</head>
+
+<body>
+    <h1>The Method Attribute</h1>
+    <p>The method attribute specifies the HTTP method to be used when submitting the form data.</p>
+    <p>The form-data can be sent as URL variables (with method="get") or as HTTP post transaction (with method="post").
+    </p>
+    <p>The default HTTP method when submitting form data is GET.</p>
+    <p>This form will be submitted using the GET method:</p>
+
+    <form action="/action_page.php" target="_blank" method="get">
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname" value="Daniel"><br>
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname" value="Sengooba"><br><br>
+        <input type="submit" value="Submit">
+    </form>
+
+    <p>After you submit, notice that the form values is visible in the address bar of the new browser tab.</p>
+
+
+
+</body>
+
+</html>
